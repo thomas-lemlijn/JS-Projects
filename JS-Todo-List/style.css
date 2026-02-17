@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+body {
+    --color-yellow-bg: #fed7aa;
+    --color-yellow-container: #fdba74;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Roboto', sans-serif;
+
+    background: var(--color-yellow-bg);
+}
+
+div.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    min-width: 300px;
+    max-width: 800px;
+    width: auto;
+    height: auto;
+}
+
+div.container-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    padding: 10px;
+
+    background: var(--color-yellow-container);
+    border-radius: 10px;
+}
+
+input {
+    font-size: 16px;
+
+    width: 100%;
+    padding: 10px;
+
+    border: none;
+    border-radius: 5px;
+    background-color: transparent;
+}
+input:focus {
+    outline: none;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+}
+
+li {
+    padding: 10px;
+
+    background-color: var(--color-yellow-bg);
+    border-radius: 5px;
+    text-wrap: wrap;
+
+    cursor: pointer;
+}
+
+#reset {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+
+    margin-top: 20px;
+    padding: 10px;
+
+    font-size: 16px;
+    font-weight: 500;
+
+    background-color: var(--color-yellow-container);
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+#reset img {
+    width: 30px;
+    height: 30px;
+    color: #fff;
+}

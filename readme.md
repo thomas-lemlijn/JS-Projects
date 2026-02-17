@@ -1,5 +1,6 @@
 # Welcome into this project
 
-## First project --> JS-Counter
+## 1. Compteur (+ / - / Reset)
 
-Please try it and enjoy
+## 2. Générateur de citations aléatoires
+
