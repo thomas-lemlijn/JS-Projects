@@ -97,3 +97,26 @@ div.container div{
     user-select: none;
     cursor: pointer;
 }
+
+#reset {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+
+    margin-top: 20px;
+    padding: 10px;
+
+    font-size: 16px;
+    font-weight: 500;
+
+    background-color: var(--color-yellow-container);
+    border: none;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+#reset img {
+    width: 30px;
+    height: 30px;
+    color: #fff;
+}
