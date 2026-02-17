@@ -2,9 +2,9 @@
 
 ## Projets réalisés
 
-- Compteur simple (+/-/reset)
-- Compteur complexe (+10/-10)
-- To-do List simple
+- ("Simple_counter") Compteur simple (+/-/reset)
+- ("Improved_counter") Compteur complexe (+10/-10)
+- ("Simple_todo_list") To-do List simple
 
 ## Idées de projets
 
