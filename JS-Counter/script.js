@@ -21,6 +21,7 @@ btnPlus.addEventListener("click", function () {
     value.innerHTML = numValue;
 })
 btnPlus10.addEventListener("click", function () {
-    numValue += 10;
+    numValue++;
+    numValue += 9;
     value.innerHTML = numValue;
 })
