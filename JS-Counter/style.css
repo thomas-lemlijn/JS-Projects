@@ -50,11 +50,11 @@ body {
 
 div.container {
     display: grid;
-    grid-template-columns: 3;
+    grid-template-columns: 5;
     grid-template-rows: 2;
     gap: 10px;
 
-    width: 300px;
+    width: 500px;
     height: 15px;
 }
 
@@ -72,28 +72,36 @@ div.container div{
 
 #container-title {
     grid-row: 1;
-    grid-column: span 3;
+    grid-column: span 5;
 
     font-size: 24px;
 }
-#container-minus {
+#container-minus-10 {
     grid-row: 2;
     grid-column: 1;
 }
-#container-value {
+#container-minus {
     grid-row: 2;
     grid-column: 2;
 }
-#container-plus {
+#container-value {
     grid-row: 2;
     grid-column: 3;
 }
+#container-plus {
+    grid-row: 2;
+    grid-column: 4;
+}
+#container-plus-10 {
+    grid-row: 2;
+    grid-column: 5;
+}
 
-#container-minus, #container-value, #container-minus {
+#container-minus-10, #container-minus, #container-value, #container-plus, #container-plus-10 {
     font-size: 30px;
 }
 
-#container-minus, #container-plus {
+#container-minus-10 ,#container-minus, #container-plus, #container-plus-10 {
     user-select: none;
     cursor: pointer;
 }
