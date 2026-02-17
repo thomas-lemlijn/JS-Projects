@@ -2,4 +2,4 @@
 
 ## First project --> JS-Counter
 
-Please try it
+Please try it and enjoy
